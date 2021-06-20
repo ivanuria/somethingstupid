@@ -1,7 +1,7 @@
-package somethingstupid
+package main
 
 import "fmt"
 
-func(main) {
-  fmt.Printl("Hola caraculo")
+func main() {
+  fmt.Println("Hola, caraculo")
 }
