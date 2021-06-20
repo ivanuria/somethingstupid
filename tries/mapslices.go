@@ -1,12 +1,8 @@
 package tries
 
-var (
-  dict = map[string]interface
-  items = []dict
-)
-
 func Mapslices() slice {
-  items.append(dict{"hola": "Patatas", "nada": 1})
-  items.append(dict{"hola": 2, "menos": "cachopo"})
+  items := []map{}
+  items.append(map[string]interface{}{"hola": "Patatas", "nada": 1})
+  items.append(map[string]interface{}{"hola": 2, "menos": "cachopo"})
   return items
 }
