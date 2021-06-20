@@ -2,9 +2,10 @@ package main
 
 import (
   "fmt"
-  "github.com/ivanuria/somethingstupid/greetings"
+  greetings "github.com/ivanuria/somethingstupid/greetings"
 )
 
 func main() {
-  fmt.Println(quote.Hello())
+  message := greetings.Hello("GladOS")
+  fmt.Println(message)
 }
