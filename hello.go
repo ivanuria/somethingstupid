@@ -22,6 +22,7 @@ func main() {
   fmt.Println(items)
   fmt.Println(daitems)
 
-  uno, dos, tres := tries.Types()
-  fmt.Println(uno, dos, tres)
+  //uno, dos, tres := tries.Types()
+  //fmt.Println(uno, dos, tres)
+  tries.Types()
 }
