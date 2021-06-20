@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  ".greetings"
+  somethingstupid.greetings "github.com/ivanuria/somethingstupid/greetings"
 )
 
 func main() {
