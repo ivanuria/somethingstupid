@@ -12,4 +12,7 @@ func main() {
 
   me := &tries.Persona{Nombre:"Iván", Edad:36}
   fmt.Println(me.MayorDeEdad())
+
+  nephew := &tries.Persona{"Ariel", 1}
+  fmt.Println(nephew.MayorDeEdad())
 }
