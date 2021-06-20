@@ -5,7 +5,7 @@ type Persona struct {
   Edad int
 }
 
-func (persona *Persona) MayorDeEdad() {
+func (persona *Persona) MayorDeEdad() bool {
   if persona.Edad >= 18 {
     return true
   } else {
