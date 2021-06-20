@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  "/greetings"
+  "greetings"
 )
 
 func main() {
