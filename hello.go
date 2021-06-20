@@ -16,8 +16,9 @@ func main() {
   nephew := &tries.Persona{"Ariel", 1}
   fmt.Println(nephew.MayorDeEdad())
 
-  items = Mapslices()
+  items, daitems := tries.Mapslices()
   fmt.Println(items)
-  items[0]["daughter"] = map[string]interface{"Lord": false}
+  items[0]["daughter"] = map[string]interface{}{"Lord": false}
   fmt.Println(items)
+  fmt.Println(daitems)
 }
