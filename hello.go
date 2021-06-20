@@ -21,4 +21,7 @@ func main() {
   items[0]["daughter"] = map[string]interface{}{"Lord": false}
   fmt.Println(items)
   fmt.Println(daitems)
+
+  uno, dos, tres := tries.Types()
+  fmt.Println(uno, dos, tres)
 }
